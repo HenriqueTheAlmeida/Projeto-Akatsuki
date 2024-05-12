@@ -1,0 +1,611 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 100px;
+}
+
+.logotipo:hover{
+
+    background-color:#fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+}
+
+nav ul,nav li{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+.bottommenu{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active .bottommenu,.bottommenu:hover{
+    background-color: #39aae1;
+    color: #fff ;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background: url(../images/bannerdoprojeto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+  
+}
+
+.container_column{
+    display: flex;
+    justify-content: space-around;
+    width: 990px;
+    flex-direction: column;
+}
+
+.banner_text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner_text h1{
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 2px 0px #000;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+
+.banner_text h2{
+    color: #fff;
+    font-size: 19px;
+    text-shadow: 0px 2px 0px #000;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.banner1{
+    background-color:#d46700;
+}
+
+.banner2{
+    background-color: #ffcd16;
+}
+
+.banner3{
+    background-color: #984747;
+}
+
+.banner_title{
+    font-size:21px;
+}
+
+.banner_descri p{
+
+    font-size: 12px;
+    word-wrap:break-word;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner_options .leiamais {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.bijus{
+    margin-top: 5px;
+    padding: 3px;
+    border-bottom: 1px solid #cdcdcd58;
+
+}
+
+#geral{
+    display: flex;
+    justify-content:center;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 100px;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text_main{
+    color: #000;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.widget_title_bar{
+    background-color: #434040;
+    width:50px;
+    height:2px;
+    margin-top:10px;
+}
+
+article .new_data{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+
+article .new_tempo,
+.new_comments{
+    padding: 10px;
+    margin: 1px;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+
+article .new_tempo{
+    background-color: #42005a;
+    color: #fff;
+}
+
+article .new_comments{
+    background-color: #a200ff;
+    color: #fff;
+}
+
+article .new_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .new_thumbnail{
+    margin-top: 30px;
+}
+
+article .new_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 21px;
+}
+
+article .new_resume{
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+article .linkluta1{
+    text-decoration: none;
+}
+
+article .linkluta1,.linkluta1:hover{
+    color:inherit;
+}
+
+.widget_body{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+article{
+    min-width: 300px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.new_fotos{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.text_fim_organizacao{
+    font-size: 16px;
+    color: #000;
+    padding: 5px;
+}
+
+.akatsuki_fotos1,.fotodopain{
+    width: 135px;
+    height: 135px;
+    margin-right: 20px;
+    margin-bottom:  20px;
+}
+.akatsuki_fotos2,.fotodoitachi{
+    width: 135px;
+    height: 135px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.akatsuki_fotos3,.fotodokakuzu{
+    width: 135px;
+    height: 135px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.akatsuki_fotos4,.fotodoobito{
+    background-color: #f00;
+    width: 135px;
+    height: 135px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.akatsuki_fotos5,.fotodakonan{
+    background-color: #f00;
+    width: 135px;
+    height: 135px;
+    margin-right:  20px;
+    margin-bottom: 20px;
+}
+
+.akatsuki_fotos6,.fotodohidan{
+    background-color: #f00;
+    width: 135px;
+    height: 135px;
+    margin-right:  20px;
+    margin-bottom:  20px;
+}
+
+.linkdafoto{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:#1e1e1e;
+    margin-top:1000px;
+    height: 500px;
+}
+
+.father{
+    display: flex;
+    flex-direction: column;
+}
+
+.container4{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 990px;
+}
+
+.footer_menu{
+    display: flex;
+    flex: 1;
+}
+
+.fm1,.fm2,.fm3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fm1{
+    background-color:#d46700;
+}
+
+.fm2{
+    background-color: #ffcd16;
+}
+
+.fm3{
+    background-color: #984747;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    width: 990px;
+    flex: 1;
+}
+
+.footer_area{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.footer_area_item1{
+    color: #fff;
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.footer_area_item2{
+    color: #fff;
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.footer_area_item3{
+    color: #fff;
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.widget_title_text{
+    color: #fff;
+}
+
+.footer_copy{
+    border-top:2px solid #bebebe35 ;
+    display: flex;
+    color: #fff;
+    padding: 15px;
+}
+
+.text_descri_sasuke{
+    font-size: 15px;
+    color: #fff;
+}
+
+.text_sasuke{
+    text-shadow: 0px 0px 1px #000;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+}
+
+.text_descri_introducao{
+    color: #cdcdcdbd;
+    padding: 10px;
+}
+
+.link_outros_animes{
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #c4c4c462;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.link_outros_animes_demon_slayer{
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #c4c4c462;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 19px;
+}
+
+.widget_title_text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.menuMobile{
+    display:none;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #984747;
+}
+@media(max-width:770px){
+
+    .banner_text{
+        padding: 10px;
+    }
+
+    .banner_text h1{
+        font-size: 35px;
+    }
+
+    .banner_text h2{
+        font-size: 14px;
+    }
+
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container3{
+        
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    #geral aside{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    footer{
+        margin-top: 1650px;
+        height: 1200px;
+        width: 990px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+    }
+
+    .footer_area{
+        flex-direction: column;
+        padding: 5px;
+    }
+}
+
+@media (max-width:600px){
+
+    .banner_text{
+        padding: 10px;
+    }
+
+    .banner_text h1{
+        font-size: 35px;
+    }
+
+    .banner_text h2{
+        font-size: 14px;
+    }
+
+    .banner_options{
+        height:200px;
+        flex-direction: column;
+    }
+
+    .banner3{
+        font-size: 12px;
+     }
+
+    .container3{
+        
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    #geral section {
+        margin-top: 120px;
+    }
+
+    #geral aside{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    footer{
+        margin-top:3020px;
+        height: 1200px;
+        width: 990px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+    }
+
+    .footer_area{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .container{
+        padding: 10px;
+    }
+/*Configurando o botão do menu no mobile*/
+    nav ul{
+        flex-direction: column;
+        height: auto;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        margin-top: 45px;
+    }
+
+    .container{
+        height: auto;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .container .logo{
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menu{
+        margin-right: 10px;
+    }
+}
+
